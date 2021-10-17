@@ -25,18 +25,3 @@ site_ip=s.gethostbyname(site_host)
 
 print(f"the website of {site_host} IP address is {site_ip}")
 
-print("---------------------------------------------------------------------")
-
-site_nam=s.gethostbyaddr("192.168.43.54")
-print(site_nam) 
-
-site_name=s.gethostbyaddr(" 138.197.63.241")
-print(site_name) 
-
-
-
-# site_host='http://www.gecrj.cteguj.in/'
-# site_ip=s.gethostbyname(site_host)
-
-# print(f"the website of {site_host} IP address is {site_ip}")
-
